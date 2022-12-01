@@ -1,1 +1,1 @@
-foreach($Item in Get-AppxPackage -AllUsers){Remove-AppxPackage -AllUsers -Package $Item}
+Foreach($Item in Get-AppxPackage -AllUsers){Remove-AppxPackage -AllUsers -Package $Item}
